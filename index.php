@@ -21,14 +21,17 @@
 </head>
 <body>
 	
-	<!-- ======= Header ======= -->
-	<header id="header" class="fixed-top">
+<!-- ======= Header ======= -->
+  <header id="header" class="fixed-top">
 		<nav class="navbar navbar-expand-lg">
 			<div class="container">
+
 			  <small><a class="navbar-brand" href="#">Traveline</a></small>
+
 			  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
 				<span class="navbar-toggler-icon"></span>
 			  </button>
+			  
 			  <div class="collapse navbar-collapse" id="navbarSupportedContent">
 				<div class="ms-auto navbar-nav">
 				  <a href="#hero" class="nav-link nav-item scrollto active">Home</a>
@@ -37,14 +40,14 @@
 					  Destination 
 					</a>
 					<ul class="dropdown-menu">
-					  <li><a class="dropdown-item" href="#">Action</a></li>
-					  <li><a class="dropdown-item" href="#">Another action</a></li>
+					  <li><a class="dropdown-item" href="#">service1</a></li>
+					  <li><a class="dropdown-item" href="#">service2</a></li>
 					  <li><hr class="dropdown-divider"></li>
-					  <li><a class="dropdown-item" href="#">Something else here</a></li>
+					  <li><a class="dropdown-item" href="#">Review</a></li>
 					</ul>
 				  </li>				 
 				   <a href="#services" class=" nav-link nav-item">Services</a>
-				  <a href="#pricing" class=" nav-link nav-item">Pricing</a>
+				   <a href="#pricing" class=" nav-link nav-item">Pricing</a>
 				   <a href="#about" class=" nav-link nav-item">About us</a>
 				   <a href="#contact" class=" nav-link nav-item">Contact us</a>
 				  <a href="#tour" class="get-started-btn">Get Started</a>
@@ -53,10 +56,10 @@
 			</div>
 		  </nav>	
 		  
-		</header>
+  </header>
 
 <!-- hero section -->
-<section id="hero" class="d-flex flex-column justify-content-center">
+  <section id="hero" class="d-flex flex-column justify-content-center">
     <div class="container">
       <div class="row justify-content-center">
         <div class="col-12">
@@ -65,10 +68,10 @@
         </div>
       </div>
     </div>
-</section>
+  </section>
 <!-- End Hero section-->
 
-  <main id="main">
+    <main id="main">
 	  
     
 	<!-- top tour section -->
@@ -211,12 +214,13 @@
 	    <!-- End Services Section -->
 
 
-	  <section id="offer" class="offer">
+	  <section id="offer" class="offer" style="background-image: url(img2/feedbck.jpg);background-size: cover;
+	  ">
 		<div class="container">
-			<div class="row ">
+			<div class="row">
 				
 				<div class="bgg">
-					<div class="section-Title pt-3"><h2>WHAT THEY SAY ABOUT US</h2>
+					<div class="section-Title pt-3"><h2> WHAT THEY SAY ABOUT US</h2>
 						<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo suscipblanditiis unde delectus, obcaecati fugit voluptate est exercitationem eligendignissimos, beatae architecto voluptatibus saepe quia ex iusto necessitatibeos excepturi.</p>
 						<p>- Alice Bloomberg</p>
 					</div>
@@ -350,7 +354,7 @@
 		  
 					<div class="col-lg-7 mt-5 mt-lg-0">
 		  
-					  <form action="" method="" role="form" class="php-email-form">
+					  <form action="contact.php" method="post" role="form" class="php-email-form">
 						<div class="row">
 						  <div class="col-md-6 form-group">
 							<input type="text" name="name" class="form-control" id="name" placeholder="Your Name" required>
@@ -366,7 +370,7 @@
 						  <textarea class="form-control" name="message" rows="5" placeholder="Message" required></textarea>
 						</div>
 					  
-						<div class="text-center"><button type="submit">Send Message</button></div>
+						<div class="text-center"><button type="submit" name="submit">Send Message</button></div>
 					  </form>
 		  
 					</div>
@@ -377,10 +381,10 @@
 		  </div>
 	  </section><!-- End Cta Section -->
 
-</main>  
+  </main>  
 <!-- end of main -->
 
-  <!-- ======= Footer ======= -->
+<!-- ======= Footer ======= -->
   <footer id="footer" class="footer  bg-dark">
     <div class="container">
       <h3>Traveline</h3>
@@ -400,7 +404,7 @@
       </div>
     </div>
   </footer>
-  <!-- End Footer -->
+<!-- End Footer -->
 
   <div id="preloader"></div>
   <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
